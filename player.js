@@ -284,7 +284,7 @@ play2.addEventListener('click',function(){
 let list = document.querySelectorAll('.list');
 list.forEach(function(element,index){
     element.addEventListener('click',function(){
-        audioElement.src = `Song ${index+1}.mp3`
+        audioElement.src = `Song${index+1}.mp3`
         audioElement.play()
         play2.classList.remove('fa-circle-play')
         play2.classList.add('fa-circle-pause')
