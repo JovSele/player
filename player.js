@@ -244,7 +244,7 @@ let html = ""
 songs.forEach(function(element,index){
     html += `<div class="list">
                 <div class="songImg">
-                    <img src="cover ${index+1}.png" alt="" class="image2">
+                    <img src="cover${index+1}.png" alt="" class="image2">
                 </div>
                 <div class="songName2">
                     ${element.name}
